@@ -1,0 +1,59 @@
+{
+  "schema_name": "InquiryQuestionBank",
+  "version": "1.0.0",
+  "description": "The full set of evocative questions mapped to deterministic output fields. Each question feels creative but resolves to a known slot in the profile schema.",
+  "layers": {
+    "essence": [
+      { "q": "What is this trying to become, even if it does not yet know how to say it?", "maps_to": "essence.one_sentence_thesis" },
+      { "q": "If this were a place, what kind of place would it be — and what makes that place feel inevitable?", "maps_to": ["essence.core_metaphor", "essence.felt_center"] },
+      { "q": "If this had one governing verb, what would it always be doing?", "maps_to": "essence.governing_verb" },
+      { "q": "If it lost all ornament, what irreducible quality would still remain?", "maps_to": ["essence.governing_noun", "essence.felt_center"] }
+    ],
+    "polarity": [
+      { "q": "Is it more like a ritual or a tool?", "maps_to": "axis:ceremonial_utilitarian" },
+      { "q": "Does it invite approach or command distance?", "maps_to": "axis:intimate_monumental" },
+      { "q": "Does it reveal itself instantly or unfold over time?", "maps_to": ["axis:revealed_concealed", "axis:instant_unfolding"] },
+      { "q": "Is its intelligence obvious on contact or only discovered through use?", "maps_to": "axis:legible_mysterious" },
+      { "q": "Does it feel grown, carved, engineered, woven, summoned, or accreted?", "maps_to": "axis:organic_engineered" },
+      { "q": "Is it a world you enter or a tool you use?", "maps_to": "axis:immersive_instrumental" },
+      { "q": "Does it shield what it holds or expose it?", "maps_to": "axis:protective_exposing" },
+      { "q": "Do its edges blur or cut?", "maps_to": "axis:soft_edged_faceted" },
+      { "q": "Does it catch light or absorb it?", "maps_to": "axis:glossy_matte" },
+      { "q": "Does it hold its form or shift?", "maps_to": "axis:stable_volatile" },
+      { "q": "Does it feel like something you could hold, or only see?", "maps_to": "axis:tactile_spectral" },
+      { "q": "Does it point beyond itself or is it exactly what it appears?", "maps_to": "axis:symbolic_literal" },
+      { "q": "Does it have a center of gravity or spread evenly?", "maps_to": "axis:centralized_distributed" }
+    ],
+    "negative_definition": [
+      { "q": "What would be the most tempting wrong version of this?", "maps_to": "negative_definition.anti_examples" },
+      { "q": "What visual or behavioral move would make this immediately become generic?", "maps_to": "negative_definition.rejects" },
+      { "q": "What does this refuse to optimize for?", "maps_to": "negative_definition.is_not" },
+      { "q": "If someone misunderstood the brief in the most common way, what would they produce?", "maps_to": "negative_definition.failure_modes" }
+    ],
+    "backwards_discovery": [
+      { "q": "If this were already perfect, what would we notice first?", "maps_to": "essence.felt_center" },
+      { "q": "What conditions must have been true for that outcome to exist?", "maps_to": "relationships.dependencies" },
+      { "q": "What decisions must not have been compromised?", "maps_to": "implementation_translation.rendering_constraints" },
+      { "q": "If this succeeds, what invisible discipline made the success look effortless?", "maps_to": "essence.one_sentence_thesis" }
+    ],
+    "behavior": [
+      { "q": "How does it behave when no one touches it?", "maps_to": "behavior.idle_state" },
+      { "q": "How does it answer attention?", "maps_to": "behavior.responsive_state" },
+      { "q": "How does it behave under interruption, overload, or contradiction?", "maps_to": "behavior.stress_state" },
+      { "q": "When disturbed, does it rebound, dissolve, harden, bloom, ripple, fracture, or adapt?", "maps_to": "behavior.adaptation_style" },
+      { "q": "After intensity passes, how does it return to equilibrium?", "maps_to": "behavior.recovery_state" }
+    ],
+    "symbolism": [
+      { "q": "If this were a character in a myth, what role would it play?", "maps_to": ["symbolism.archetype", "symbolism.lore_role"] },
+      { "q": "What materials, animals, climates, or rituals does it secretly belong to?", "maps_to": ["symbolism.material_associations", "symbolism.cultural_resonances"] },
+      { "q": "What does it protect, reveal, conceal, or transmute?", "maps_to": "symbolism.lore_role" },
+      { "q": "What pairings amplify it, and what pairings flatten it?", "maps_to": ["symbolism.symbolic_pairs", "relationships.opposites"] }
+    ],
+    "composition": [
+      { "q": "Is its beauty in symmetry, tension, drift, repetition, or interruption?", "maps_to": ["composition.symmetry_type", "composition.rhythm_type"] },
+      { "q": "Does the eye move through it like a path, a pulse, a bloom, a lattice, or a wave?", "maps_to": "composition.rhythm_type" },
+      { "q": "What carries the weight — edge, center, field, spine, frame, or void?", "maps_to": "composition.hierarchy_logic" },
+      { "q": "Is contrast created by scale, texture, light, density, temperature, silence, or motion?", "maps_to": "composition.contrast_style" }
+    ]
+  }
+}

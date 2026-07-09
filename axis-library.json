@@ -1,0 +1,127 @@
+{
+  "schema_name": "InquiryAxisLibrary",
+  "version": "1.0.0",
+  "description": "Reusable semantic polarity axes for the Deterministic Inquiry Engine. Each axis has a left pole, right pole, scoring guidance, and examples at 0.2, 0.5, and 0.8.",
+  "axes": [
+    {
+      "axis_id": "ceremonial_utilitarian",
+      "left_pole": "ceremonial",
+      "right_pole": "utilitarian",
+      "description": "Whether the thing prioritizes ritual and atmosphere over raw function.",
+      "question": "Is it more like a ritual or a tool?",
+      "examples": { "0.2": "A tea ceremony — every gesture is the point", "0.5": "A well-designed tool that feels considered but is built to be used", "0.8": "A Swiss army knife — pure function, no ceremony" }
+    },
+    {
+      "axis_id": "intimate_monumental",
+      "left_pole": "intimate",
+      "right_pole": "monumental",
+      "description": "Whether the thing invites approach or commands distance.",
+      "question": "Does it invite approach or command distance?",
+      "examples": { "0.2": "A handwritten letter", "0.5": "A living room with high ceilings", "0.8": "A cathedral facade" }
+    },
+    {
+      "axis_id": "revealed_concealed",
+      "left_pole": "revealed",
+      "right_pole": "concealed",
+      "description": "Whether value is shown immediately or unfolds over time.",
+      "question": "Does it reveal itself instantly or unfold over time?",
+      "examples": { "0.2": "A clear glass window", "0.5": "A book whose cover hints at its contents", "0.8": "A locked chest that must be earned open" }
+    },
+    {
+      "axis_id": "instant_unfolding",
+      "left_pole": "instant",
+      "right_pole": "unfolding",
+      "description": "Whether the thing discloses itself all at once or gradually.",
+      "question": "Does it give everything at once or ask you to stay?",
+      "examples": { "0.2": "A photograph", "0.5": "A song with a slow build", "0.8": "A novel that recontextualises its first chapter" }
+    },
+    {
+      "axis_id": "organic_engineered",
+      "left_pole": "organic",
+      "right_pole": "engineered",
+      "description": "Whether the thing feels grown, carved, woven — or designed, calculated, assembled.",
+      "question": "Does it feel grown or built?",
+      "examples": { "0.2": "Moss on stone", "0.5": "A Japanese garden — shaped by intention but alive", "0.8": "A circuit board" }
+    },
+    {
+      "axis_id": "glossy_matte",
+      "left_pole": "glossy",
+      "right_pole": "matte",
+      "description": "Surface reflectivity and sheen.",
+      "question": "Does it catch light or absorb it?",
+      "examples": { "0.2": "Polished lacquer", "0.5": "Eggshell paint", "0.8": "Raw concrete" }
+    },
+    {
+      "axis_id": "tactile_spectral",
+      "left_pole": "tactile",
+      "right_pole": "spectral",
+      "description": "Whether the thing feels physical and touchable or light-based and immaterial.",
+      "question": "Does it feel like something you could hold, or something you could only see?",
+      "examples": { "0.2": "Carved wood", "0.5": "Frosted glass — both solid and luminous", "0.8": "A hologram" }
+    },
+    {
+      "axis_id": "ornate_austere",
+      "left_pole": "ornate",
+      "right_pole": "austere",
+      "description": "Density of decoration versus restraint.",
+      "question": "Does it fill every surface or leave silence?",
+      "examples": { "0.2": "Baroque cathedral interior", "0.5": "A well-proportioned room with one painting", "0.8": "A Shaker meetinghouse" }
+    },
+    {
+      "axis_id": "stable_volatile",
+      "left_pole": "stable",
+      "right_pole": "volatile",
+      "description": "Whether the thing stays put or changes state.",
+      "question": "Does it hold its form or shift?",
+      "examples": { "0.2": "A stone wall", "0.5": "A calm sea that shifts with weather", "0.8": "A flame" }
+    },
+    {
+      "axis_id": "legible_mysterious",
+      "left_pole": "legible",
+      "right_pole": "mysterious",
+      "description": "Whether the thing is obvious on contact or only discovered through use.",
+      "question": "Is its intelligence obvious or latent?",
+      "examples": { "0.2": "A stop sign", "0.5": "A map with unlabeled territories", "0.8": "An enigma box" }
+    },
+    {
+      "axis_id": "centralized_distributed",
+      "left_pole": "centralized",
+      "right_pole": "distributed",
+      "description": "Whether the thing has a single focus or many equal parts.",
+      "question": "Does it have a center of gravity or spread evenly?",
+      "examples": { "0.2": "A mandala with a clear center", "0.5": "A constellation with a brightest star", "0.8": "A mycelial network with no center" }
+    },
+    {
+      "axis_id": "symbolic_literal",
+      "left_pole": "symbolic",
+      "right_pole": "literal",
+      "description": "Whether the thing means more than it shows.",
+      "question": "Does it point beyond itself or is it exactly what it appears?",
+      "examples": { "0.2": "A religious icon", "0.5": "A logo that works as both mark and meaning", "0.8": "An exit sign" }
+    },
+    {
+      "axis_id": "immersive_instrumental",
+      "left_pole": "immersive",
+      "right_pole": "instrumental",
+      "description": "Whether the thing is a world you enter or a tool you use.",
+      "question": "Is it a place or a tool?",
+      "examples": { "0.2": "A VR landscape", "0.5": "A well-designed app that is also a pleasant place", "0.8": "A hammer" }
+    },
+    {
+      "axis_id": "soft_edged_faceted",
+      "left_pole": "soft-edged",
+      "right_pole": "faceted",
+      "description": "Whether boundaries are blurred or sharply defined.",
+      "question": "Do its edges blur or cut?",
+      "examples": { "0.2": "A watercolour bloom", "0.5": "A leaf with a defined edge but organic curve", "0.8": "A cut gemstone" }
+    },
+    {
+      "axis_id": "protective_exposing",
+      "left_pole": "protective",
+      "right_pole": "exposing",
+      "description": "Whether the thing shields or reveals what it contains.",
+      "question": "Does it shield what it holds or show it?",
+      "examples": { "0.2": "A shell", "0.5": "A display case — visible but guarded", "0.8": "An open hand" }
+    }
+  ]
+}
