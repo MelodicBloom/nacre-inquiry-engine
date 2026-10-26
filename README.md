@@ -57,3 +57,13 @@ python evaluate.py --profile your-profile.json --report report.txt
 ## License
 
 MIT © MelodicBloom
+
+## Interactive questionnaire (web)
+
+A small Vite + React lead-magnet app lives in `src/`. It walks through metaphor → polarity (all 15 axes from `axis-library.json`) → material/behavior/composition, live-previews derived material tokens (colour, softness, specular, iridescence, motion), and exports a schema-shaped JSON profile.
+
+```bash
+npm install
+npm run dev     # local
+npm run build   # → dist/
+```
